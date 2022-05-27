@@ -1,0 +1,84 @@
+.cabecera{
+  background: blue;
+  width: 120%;
+  height: 200px;
+  margin-top: 0px;
+  position: fixed;
+
+margin-top: -1%;
+margin-left: -2%;
+font-size: 45px;
+
+font-family: "Gill Sans Extrabold", Helvetica, sans-serifl;
+
+  text-align: center;
+  text-indent: 150px;
+  margin-bottom: 0px;
+  color: #F0F8FF;
+  z-index: 0;
+}
+.izquierda{
+  margin-left: -2%;
+  margin-top: -1%;
+
+  background: red;
+  width: 25%;
+  height: 100%;
+  top: 208px;
+  color: #FAEBD7;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 25%;
+  line-height: 250%;
+  position: absolute;
+}
+.boton{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  background: yellow;
+  overflow: hidden;
+  position: relative;
+  border
+}
+.boton:hover{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+span{
+  z-index: 1;
+}
+.boton::after{
+  content: "";
+  width: 450px;
+  height: 100%;
+  background: grey;
+  left: -450px;
+  position: absolute;
+  transition: .6s;
+  border-radius: 50px;
+}
+.boton:hover::after{
+  left: -20px;
+}
+
+.boton1{
+  width: 100%;
+  height: 10%;
+}
+.foto{
+  top: -150px;
+}
+.entradas{
+  background: black;
+  width: 50%;
+  height: 100px;
+  top: 350px;
+  left: 25%;
+  position: absolute;
+}
